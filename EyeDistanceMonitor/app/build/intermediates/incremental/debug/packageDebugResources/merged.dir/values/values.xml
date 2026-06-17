@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_blue">#4A90E2</color>
+    <color name="alert_amber">#F59E0B</color>
+    <color name="bg_navy">#0B1220</color>
+    <color name="bg_navy_deep">#0B1220</color>
+    <color name="black">#000000</color>
+    <color name="border_navy">#1E293B</color>
+    <color name="card_blue">#162033</color>
+    <color name="ic_launcher_background">#000000</color>
+    <color name="primary_teal">#22C55E</color>
+    <color name="secondary_blue">#4A90E2</color>
+    <color name="status_danger">#EF4444</color>
+    <color name="status_safe">#22C55E</color>
+    <color name="status_warning">#F59E0B</color>
+    <color name="surface_navy_light">#162033</color>
+    <color name="text_high_emphasis">#FFFFFF</color>
+    <color name="text_medium_emphasis">#B8C2CC</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B8C2CC</color>
+    <color name="transparent">#00000000</color>
+    <color name="urgent_coral">#EF4444</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">EyeCare Monitor</string>
+    <string name="btn_start">Start Monitoring</string>
+    <string name="btn_stop">Stop Monitoring</string>
+    <string name="content_desc_info">Info Icon</string>
+    <string name="content_desc_logo">App Logo</string>
+    <string name="content_desc_posture">Posture Icon</string>
+    <string name="header_title">EyeCare Monitor</string>
+    <string name="label_active_time">Active Time</string>
+    <string name="label_blink_rate">Blink Rate</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_eye_strain">Eye Strain</string>
+    <string name="label_posture">Posture</string>
+    <string name="label_safety_score">EYE SAFETY SCORE</string>
+    <string name="label_unsafe_usage">Unsafe Usage</string>
+    <string name="label_usage_analytics">Usage Analytics</string>
+    <string name="notif_distance_msg">Please move back from the screen.</string>
+    <string name="notif_distance_title">Proximity Alert</string>
+    <string name="notif_posture_msg">Sit up straight to reduce strain.</string>
+    <string name="notif_posture_title">Posture Correction</string>
+    <string name="notif_strain_msg">High eye strain detected. Take a break.</string>
+    <string name="notif_strain_title">Break Reminder</string>
+    <string name="status_bad">Bad</string>
+    <string name="status_good">Good</string>
+    <string name="status_high">High Strain</string>
+    <string name="status_mild">Mild Strain</string>
+    <string name="status_normal">Normal</string>
+    <string name="status_ready">System Ready</string>
+    <string name="status_scanning">Scanning...</string>
+    <string name="suggest_blink">Blink more frequently</string>
+    <string name="suggest_break">Take a 20-second break</string>
+    <string name="suggest_distance">Increase screen distance</string>
+    <string name="suggest_optimal">Eye health is optimal</string>
+    <string name="suggest_posture">Improve your posture</string>
+    <style name="CircleAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="MetricCardStyle" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/card_blue</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="strokeColor">@color/border_navy</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+    <style name="MetricContentStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="MetricLabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+    <style name="MetricValueStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="Theme.EyeDistanceMonitor" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/accent_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/card_blue</item>
+        <item name="colorOnPrimaryContainer">@color/text_primary</item>
+
+        
+        <item name="colorSecondary">@color/status_safe</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        
+        <item name="android:statusBarColor">@color/bg_navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        
+        <item name="android:windowBackground">@color/bg_navy</item>
+    </style>
+</resources>

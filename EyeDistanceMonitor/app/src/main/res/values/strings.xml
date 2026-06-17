@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EyeCare Monitor</string>
+    <string name="header_title">EyeCare Monitor</string>
+    
+    <!-- Dashboard Labels -->
+    <string name="label_safety_score">EYE SAFETY SCORE</string>
+    <string name="label_distance">Distance</string>
+    <string name="label_posture">Posture</string>
+    <string name="label_eye_strain">Eye Strain</string>
+    <string name="label_blink_rate">Blink Rate</string>
+    <string name="label_usage_analytics">Usage Analytics</string>
+    <string name="label_active_time">Active Time</string>
+    <string name="label_unsafe_usage">Unsafe Usage</string>
+    
+    <!-- Status Labels -->
+    <string name="status_scanning">Scanning...</string>
+    <string name="status_ready">System Ready</string>
+    <string name="status_good">Good</string>
+    <string name="status_bad">Bad</string>
+    <string name="status_normal">Normal</string>
+    <string name="status_mild">Mild Strain</string>
+    <string name="status_high">High Strain</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start">Start Monitoring</string>
+    <string name="btn_stop">Stop Monitoring</string>
+
+    <!-- Content Descriptions -->
+    <string name="content_desc_logo">App Logo</string>
+    <string name="content_desc_posture">Posture Icon</string>
+    <string name="content_desc_info">Info Icon</string>
+
+    <!-- Notifications -->
+    <string name="notif_distance_title">Proximity Alert</string>
+    <string name="notif_distance_msg">Please move back from the screen.</string>
+    <string name="notif_posture_title">Posture Correction</string>
+    <string name="notif_posture_msg">Sit up straight to reduce strain.</string>
+    <string name="notif_strain_title">Break Reminder</string>
+    <string name="notif_strain_msg">High eye strain detected. Take a break.</string>
+    
+    <!-- Suggestions -->
+    <string name="suggest_optimal">Eye health is optimal</string>
+    <string name="suggest_distance">Increase screen distance</string>
+    <string name="suggest_posture">Improve your posture</string>
+    <string name="suggest_blink">Blink more frequently</string>
+    <string name="suggest_break">Take a 20-second break</string>
+</resources>

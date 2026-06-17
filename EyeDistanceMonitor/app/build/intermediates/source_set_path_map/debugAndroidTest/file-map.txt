@@ -1,0 +1,4 @@
+com.eyecare.monitor.test.app-androidTest-0 C:\Users\Administrator\Downloads\EyeDistanceMonitor\EyeDistanceMonitor\app\build\generated\res\resValues\androidTest\debug
+com.eyecare.monitor.test.app-mergeDebugAndroidTestResources-1 C:\Users\Administrator\Downloads\EyeDistanceMonitor\EyeDistanceMonitor\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.eyecare.monitor.test.app-mergeDebugAndroidTestResources-2 C:\Users\Administrator\Downloads\EyeDistanceMonitor\EyeDistanceMonitor\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.eyecare.monitor.test.app-merged_res-3 C:\Users\Administrator\Downloads\EyeDistanceMonitor\EyeDistanceMonitor\app\build\intermediates\merged_res\debugAndroidTest

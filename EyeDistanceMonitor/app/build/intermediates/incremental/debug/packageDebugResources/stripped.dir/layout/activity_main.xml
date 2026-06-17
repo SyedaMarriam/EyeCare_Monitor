@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_navy"
+    tools:context=".MainActivity">
+
+    <!-- Professional App Bar - Settings Completely Removed -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="EyeCare Monitor"
+                        android:textColor="@color/text_primary"
+                        android:textSize="22sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AI Vision Guard"
+                        android:textColor="@color/accent_blue"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_eye_logo"
+                    app:tint="@color/accent_blue" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="120dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="12dp">
+
+            <!-- 1. Eye Safety Score Card (Compact 90dp) -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardScore"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/card_blue"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvHealthScore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="--"
+                        android:textColor="@color/status_safe"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:letterSpacing="0.2"
+                        android:text="EYE SAFETY SCORE"
+                        android:textColor="@color/text_secondary"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 2. Metrics Grid (Icons Removed, Status Only) -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:alignmentMode="alignMargins"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <!-- Distance -->
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/MetricCardStyle"
+                    android:layout_columnWeight="1">
+                    <LinearLayout style="@style/MetricContentStyle">
+                        <TextView style="@style/MetricLabelStyle" android:text="Distance" />
+                        <TextView android:id="@+id/tvDistanceValue" style="@style/MetricValueStyle" android:text="--" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Posture -->
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/MetricCardStyle"
+                    android:layout_columnWeight="1">
+                    <LinearLayout style="@style/MetricContentStyle">
+                        <TextView style="@style/MetricLabelStyle" android:text="Posture" />
+                        <TextView android:id="@+id/tvPostureValue" style="@style/MetricValueStyle" android:text="--" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Eye Strain -->
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/MetricCardStyle"
+                    android:layout_columnWeight="1">
+                    <LinearLayout style="@style/MetricContentStyle">
+                        <TextView style="@style/MetricLabelStyle" android:text="Eye Strain" />
+                        <TextView android:id="@+id/tvStrainValue" style="@style/MetricValueStyle" android:text="--" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Blink Rate -->
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/MetricCardStyle"
+                    android:layout_columnWeight="1">
+                    <LinearLayout style="@style/MetricContentStyle">
+                        <TextView style="@style/MetricLabelStyle" android:text="Blink Rate" />
+                        <TextView android:id="@+id/tvBlinkRate" style="@style/MetricValueStyle" android:text="--" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </GridLayout>
+
+            <!-- 3. Usage Analytics Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="@color/card_blue"
+                app:cardCornerRadius="20dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-black"
+                        android:text="SESSION ANALYTICS"
+                        android:textColor="@color/text_primary"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="16dp"
+                        android:background="@color/bg_navy" />
+
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Active session" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvActiveTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="00:00" android:textColor="@color/text_primary" android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unsafe exposure" android:textColor="@color/text_secondary" />
+                        <TextView android:id="@+id/tvUnsafeUsage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" android:text="0s" android:textColor="@color/status_danger" android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 4. Smart AI Suggestion Banner -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardSuggestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="24dp"
+                app:cardBackgroundColor="@color/card_blue"
+                app:cardCornerRadius="16dp"
+                app:strokeColor="@color/accent_blue"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="20dp"
+                    android:background="@color/transparent">
+                    <TextView
+                        android:id="@+id/tvAiSuggestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" System Ready"
+                        android:textColor="@color/text_primary"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Professional Control Action Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/bg_navy"
+        android:padding="24dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Loading Layout -->
+            <LinearLayout
+                android:id="@+id/loadingLayout"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ProgressBar
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:indeterminateTint="@color/accent_blue" />
+
+                <TextView
+                    android:id="@+id/tvLoadingMsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Initializing Guard..."
+                    android:textColor="@color/text_primary"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnToggleService"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:fontFamily="sans-serif-black"
+                android:text="START MONITORING"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:backgroundTint="@color/accent_blue"
+                app:cornerRadius="12dp"
+                app:elevation="8dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

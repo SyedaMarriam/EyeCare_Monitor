@@ -1,0 +1,4 @@
+#Sun May 31 06:14:05 PKT 2026
+base.0=C\:\\Users\\Administrator\\Downloads\\EyeDistanceMonitor\\EyeDistanceMonitor\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

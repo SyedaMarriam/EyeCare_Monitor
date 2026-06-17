@@ -1,0 +1,616 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:2:1-47:12
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e559a96aaee1355e8422fb9a02aac93\transformed\viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\eda1e774c0f553359a7454045b76bd5c\transformed\material-1.11.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dc410120b9559c7e13a8fa643a08813f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\9a65ba17886dfaae5d61b73bcf98dfdd\transformed\camera-video-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6220f5ea1324d235cfb50475d7584259\transformed\camera-lifecycle-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:17:1-36:12
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\07179f6463def281afd3e88ae7d89c7e\transformed\camera-view-1.3.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\45b8b686f550f5fc073749c5b2270343\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\b1ddf2622883fe527777886760efcd28\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\3322f6962447f2b1568360074ee6eeb0\transformed\material3-1.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\bc406b31ffd594eedc6a407330ea110a\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.mlkit:face-detection:16.1.5] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\15a96a62da9a1d40faa26a0d8d0233a7\transformed\face-detection-16.1.5\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6180bc3db72690ecc7ccd2ffd57e12aa\transformed\vision-interfaces-16.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a650353db25ac10a8b737cbccc0416e1\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8468b36e2c0fcf20b4b2dc18befc6b16\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\49b7f7d517a3d8ee4a1cbf3d32b515ce\transformed\animation-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fec4a60a6d43233e69b971bc694196d1\transformed\material-icons-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\df0ab417f818cda5c89b9898c886b113\transformed\material-ripple-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\befe30659004963e1dcd81cd2175fc0f\transformed\animation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\048d864ab78490d900a3438643e531e0\transformed\foundation-layout-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\77be74fe10a87aed708282b3c1751385\transformed\foundation-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\efe0796f82a1ac4ec75dc6582c28da89\transformed\ui-unit-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e1865995c666f4508fed0899535eb8df\transformed\ui-geometry-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7eb142232beede77463347d90ab4fcec\transformed\ui-util-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\ffa7491109695d2faa922f104f0d27b1\transformed\ui-text-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8ae4f435b6296531b3c497b8302fae6e\transformed\ui-tooling-preview-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\aa0b61772cea5e015c7cd5dca99d887f\transformed\ui-graphics-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fba9f94ffd48f47ad3e8004f0506db4c\transformed\ui-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\067a36ef0e28a9bc09e543c73c8ac255\transformed\activity-ktx-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\0d4c0f6a1bd1c3fc2ff3eb170ec50dc0\transformed\activity-compose-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\440663af5b7924d1b5df08869d2430b6\transformed\activity-1.8.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7de5c562bdba3e29b4fef9d8eb0c1e1b\transformed\emoji2-views-helper-1.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\95be577649c86f2ca109e8c5cc03b1c3\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a25f365dd08614e68bc3f0718e548af8\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f49f9d14952798fb6e93d133a3f2c12e\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\74fbc87f162745dc65f718de5a005a12\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\9c2ec2e1e32fc02ea7ba685546e9daa7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1bd10dd69f19ed93bf3c944446ed044f\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\30595258805e3d7299ed9880f3fe58e6\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f0c591b7112a5949b07201b844b7696c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\cf8620538bbbfc5be9c0619cc36807b8\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\56ad119c44651cbc581b3a7553d69fe6\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\739b39324f5a8a8ced0e76e8523a2dca\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\654a021f289d5eba64728e4b8df0bae4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f08378fcb0d1bc15607b62ca56d34e6b\transformed\core-ktx-1.12.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\914699772a3318637c193326125999cc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f6d8a4ae17c758bf5e1339ad6f37d9d3\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\c3601f60d94396414df3f7ed5c8dc6de\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\36ac8cd3dc60eff5bbc73d2fbce25605\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f808716fa31c756da072603a211f6153\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\81a23dafa540fb6fb5f28a9c6583404e\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fd517cdb2c48fe965fe7d7771cabcbd7\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e5ec4fe824ba1757e9ec0b8bfb5a15b2\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\de2db7d158064ef1aef963feed06322c\transformed\autofill-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\44607a0a303bb900435a718b51b7cc3c\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e8e6d6cb7ef574fb7a1314a3822b7a20\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\665ed0f5290011e9384c4f9eeaed32b2\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d6b7c1d0a89c24fd328d2380735758e1\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6b66601d7e3f4f9981fe5fd427b4df5f\transformed\runtime-saveable-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67a98c47ede797df780f54d86628fe37\transformed\runtime-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\56545f51ab14ed1915c81ff26b2ba668\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6d689c7085e723d2351664a05595856d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\57af03805f8d5352116f9f61ed7191da\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dcb92db996f57e0f7e3e47190fe793b5\transformed\transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\97582f94e2db793d07c8911779019b80\transformed\firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\b73fce25c88d04ab54ddf199371b538b\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5420e7798e89edb16f49ba0e143fac3d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\887e48aa02a845d4e67017898841d6b8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a80a0ca99a1ca4340727a4af061ffcd6\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\4d97ab5b4450bd24527543fc28cda95f\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d3d311f2088bba6ec4b06ecb78789832\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\bb56b024af6b960041484b68d663db96\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\19159d1e060e3ffac893e1b54426a624\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5d3cbe53fa3ff269c1b86a4ff53ff6a8\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7dca3242b4e645cfac997d629bfc79e3\transformed\image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:7:5-77
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_CAMERA
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:8:5-84
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:8:22-81
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:10:5-77
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:10:22-74
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:11:22-63
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:12:5-95
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:12:22-92
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:14:5-16:35
+	android:required
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:16:9-32
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:15:9-53
+application
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:18:5-45:19
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:18:5-45:19
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\eda1e774c0f553359a7454045b76bd5c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\eda1e774c0f553359a7454045b76bd5c\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dc410120b9559c7e13a8fa643a08813f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dc410120b9559c7e13a8fa643a08813f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:23:5-34:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a650353db25ac10a8b737cbccc0416e1\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a650353db25ac10a8b737cbccc0416e1\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\887e48aa02a845d4e67017898841d6b8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\887e48aa02a845d4e67017898841d6b8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7dca3242b4e645cfac997d629bfc79e3\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7dca3242b4e645cfac997d629bfc79e3\transformed\image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:21:9-41
+	android:roundIcon
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:22:9-54
+	tools:targetApi
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:25:9-29
+	android:icon
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:24:9-56
+activity#com.eyecare.monitor.MainActivity
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:27:9-36:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:30:13-49
+	android:launchMode
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:31:13-43
+	android:exported
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:28:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:34:27-74
+service#com.eyecare.monitor.EyeCareService
+ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:39:9-43:44
+	android:exported
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:41:13-37
+	android:stopWithTask
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:43:13-41
+	android:foregroundServiceType
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:42:13-51
+	android:name
+		ADDED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml:40:13-43
+uses-sdk
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e559a96aaee1355e8422fb9a02aac93\transformed\viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e559a96aaee1355e8422fb9a02aac93\transformed\viewbinding-8.2.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\eda1e774c0f553359a7454045b76bd5c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\eda1e774c0f553359a7454045b76bd5c\transformed\material-1.11.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dc410120b9559c7e13a8fa643a08813f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dc410120b9559c7e13a8fa643a08813f\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\9a65ba17886dfaae5d61b73bcf98dfdd\transformed\camera-video-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-video:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\9a65ba17886dfaae5d61b73bcf98dfdd\transformed\camera-video-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6220f5ea1324d235cfb50475d7584259\transformed\camera-lifecycle-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-lifecycle:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6220f5ea1324d235cfb50475d7584259\transformed\camera-lifecycle-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\07179f6463def281afd3e88ae7d89c7e\transformed\camera-view-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.camera:camera-view:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\07179f6463def281afd3e88ae7d89c7e\transformed\camera-view-1.3.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\45b8b686f550f5fc073749c5b2270343\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\45b8b686f550f5fc073749c5b2270343\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\b1ddf2622883fe527777886760efcd28\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\b1ddf2622883fe527777886760efcd28\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\3322f6962447f2b1568360074ee6eeb0\transformed\material3-1.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\3322f6962447f2b1568360074ee6eeb0\transformed\material3-1.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\bc406b31ffd594eedc6a407330ea110a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\bc406b31ffd594eedc6a407330ea110a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.mlkit:face-detection:16.1.5] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\15a96a62da9a1d40faa26a0d8d0233a7\transformed\face-detection-16.1.5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:face-detection:16.1.5] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\15a96a62da9a1d40faa26a0d8d0233a7\transformed\face-detection-16.1.5\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6180bc3db72690ecc7ccd2ffd57e12aa\transformed\vision-interfaces-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.mlkit:vision-interfaces:16.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6180bc3db72690ecc7ccd2ffd57e12aa\transformed\vision-interfaces-16.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a650353db25ac10a8b737cbccc0416e1\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a650353db25ac10a8b737cbccc0416e1\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8468b36e2c0fcf20b4b2dc18befc6b16\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8468b36e2c0fcf20b4b2dc18befc6b16\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\49b7f7d517a3d8ee4a1cbf3d32b515ce\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\49b7f7d517a3d8ee4a1cbf3d32b515ce\transformed\animation-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fec4a60a6d43233e69b971bc694196d1\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fec4a60a6d43233e69b971bc694196d1\transformed\material-icons-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\df0ab417f818cda5c89b9898c886b113\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\df0ab417f818cda5c89b9898c886b113\transformed\material-ripple-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\befe30659004963e1dcd81cd2175fc0f\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\befe30659004963e1dcd81cd2175fc0f\transformed\animation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\048d864ab78490d900a3438643e531e0\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\048d864ab78490d900a3438643e531e0\transformed\foundation-layout-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\77be74fe10a87aed708282b3c1751385\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\77be74fe10a87aed708282b3c1751385\transformed\foundation-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\efe0796f82a1ac4ec75dc6582c28da89\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\efe0796f82a1ac4ec75dc6582c28da89\transformed\ui-unit-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e1865995c666f4508fed0899535eb8df\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e1865995c666f4508fed0899535eb8df\transformed\ui-geometry-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7eb142232beede77463347d90ab4fcec\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7eb142232beede77463347d90ab4fcec\transformed\ui-util-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\ffa7491109695d2faa922f104f0d27b1\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\ffa7491109695d2faa922f104f0d27b1\transformed\ui-text-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8ae4f435b6296531b3c497b8302fae6e\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8ae4f435b6296531b3c497b8302fae6e\transformed\ui-tooling-preview-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\aa0b61772cea5e015c7cd5dca99d887f\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\aa0b61772cea5e015c7cd5dca99d887f\transformed\ui-graphics-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fba9f94ffd48f47ad3e8004f0506db4c\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fba9f94ffd48f47ad3e8004f0506db4c\transformed\ui-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\067a36ef0e28a9bc09e543c73c8ac255\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\067a36ef0e28a9bc09e543c73c8ac255\transformed\activity-ktx-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\0d4c0f6a1bd1c3fc2ff3eb170ec50dc0\transformed\activity-compose-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\0d4c0f6a1bd1c3fc2ff3eb170ec50dc0\transformed\activity-compose-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\440663af5b7924d1b5df08869d2430b6\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\440663af5b7924d1b5df08869d2430b6\transformed\activity-1.8.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7de5c562bdba3e29b4fef9d8eb0c1e1b\transformed\emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7de5c562bdba3e29b4fef9d8eb0c1e1b\transformed\emoji2-views-helper-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\95be577649c86f2ca109e8c5cc03b1c3\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\95be577649c86f2ca109e8c5cc03b1c3\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a25f365dd08614e68bc3f0718e548af8\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a25f365dd08614e68bc3f0718e548af8\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f49f9d14952798fb6e93d133a3f2c12e\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f49f9d14952798fb6e93d133a3f2c12e\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\74fbc87f162745dc65f718de5a005a12\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\74fbc87f162745dc65f718de5a005a12\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\9c2ec2e1e32fc02ea7ba685546e9daa7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\9c2ec2e1e32fc02ea7ba685546e9daa7\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1bd10dd69f19ed93bf3c944446ed044f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1bd10dd69f19ed93bf3c944446ed044f\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\30595258805e3d7299ed9880f3fe58e6\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\30595258805e3d7299ed9880f3fe58e6\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f0c591b7112a5949b07201b844b7696c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f0c591b7112a5949b07201b844b7696c\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\cf8620538bbbfc5be9c0619cc36807b8\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\cf8620538bbbfc5be9c0619cc36807b8\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\56ad119c44651cbc581b3a7553d69fe6\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\56ad119c44651cbc581b3a7553d69fe6\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\739b39324f5a8a8ced0e76e8523a2dca\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\739b39324f5a8a8ced0e76e8523a2dca\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\654a021f289d5eba64728e4b8df0bae4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\654a021f289d5eba64728e4b8df0bae4\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f08378fcb0d1bc15607b62ca56d34e6b\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f08378fcb0d1bc15607b62ca56d34e6b\transformed\core-ktx-1.12.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\914699772a3318637c193326125999cc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\914699772a3318637c193326125999cc\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f6d8a4ae17c758bf5e1339ad6f37d9d3\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f6d8a4ae17c758bf5e1339ad6f37d9d3\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\c3601f60d94396414df3f7ed5c8dc6de\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\c3601f60d94396414df3f7ed5c8dc6de\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\36ac8cd3dc60eff5bbc73d2fbce25605\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\36ac8cd3dc60eff5bbc73d2fbce25605\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f808716fa31c756da072603a211f6153\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\f808716fa31c756da072603a211f6153\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\81a23dafa540fb6fb5f28a9c6583404e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\81a23dafa540fb6fb5f28a9c6583404e\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fd517cdb2c48fe965fe7d7771cabcbd7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\fd517cdb2c48fe965fe7d7771cabcbd7\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e5ec4fe824ba1757e9ec0b8bfb5a15b2\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e5ec4fe824ba1757e9ec0b8bfb5a15b2\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\de2db7d158064ef1aef963feed06322c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\de2db7d158064ef1aef963feed06322c\transformed\autofill-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\44607a0a303bb900435a718b51b7cc3c\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\44607a0a303bb900435a718b51b7cc3c\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e8e6d6cb7ef574fb7a1314a3822b7a20\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\e8e6d6cb7ef574fb7a1314a3822b7a20\transformed\lifecycle-viewmodel-compose-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\665ed0f5290011e9384c4f9eeaed32b2\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\665ed0f5290011e9384c4f9eeaed32b2\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d6b7c1d0a89c24fd328d2380735758e1\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d6b7c1d0a89c24fd328d2380735758e1\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6b66601d7e3f4f9981fe5fd427b4df5f\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6b66601d7e3f4f9981fe5fd427b4df5f\transformed\runtime-saveable-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67a98c47ede797df780f54d86628fe37\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67a98c47ede797df780f54d86628fe37\transformed\runtime-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\56545f51ab14ed1915c81ff26b2ba668\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\56545f51ab14ed1915c81ff26b2ba668\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6d689c7085e723d2351664a05595856d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\6d689c7085e723d2351664a05595856d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\57af03805f8d5352116f9f61ed7191da\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\57af03805f8d5352116f9f61ed7191da\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dcb92db996f57e0f7e3e47190fe793b5\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\dcb92db996f57e0f7e3e47190fe793b5\transformed\transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\97582f94e2db793d07c8911779019b80\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\97582f94e2db793d07c8911779019b80\transformed\firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\b73fce25c88d04ab54ddf199371b538b\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\b73fce25c88d04ab54ddf199371b538b\transformed\firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5420e7798e89edb16f49ba0e143fac3d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5420e7798e89edb16f49ba0e143fac3d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\887e48aa02a845d4e67017898841d6b8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\887e48aa02a845d4e67017898841d6b8\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a80a0ca99a1ca4340727a4af061ffcd6\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a80a0ca99a1ca4340727a4af061ffcd6\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\4d97ab5b4450bd24527543fc28cda95f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\4d97ab5b4450bd24527543fc28cda95f\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d3d311f2088bba6ec4b06ecb78789832\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d3d311f2088bba6ec4b06ecb78789832\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\bb56b024af6b960041484b68d663db96\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\bb56b024af6b960041484b68d663db96\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\19159d1e060e3ffac893e1b54426a624\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\19159d1e060e3ffac893e1b54426a624\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5d3cbe53fa3ff269c1b86a4ff53ff6a8\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5d3cbe53fa3ff269c1b86a4ff53ff6a8\transformed\annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7dca3242b4e645cfac997d629bfc79e3\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7dca3242b4e645cfac997d629bfc79e3\transformed\image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Administrator\Documents\EyeDistanceMonitor Project\EyeDistanceMonitor\EyeDistanceMonitor\app\src\main\AndroidManifest.xml
+service#androidx.camera.core.impl.MetadataHolderService
+ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:29:9-33:78
+MERGED from [androidx.camera:camera-core:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\619d4f972ea8cb0a2b789264993daf9d\transformed\camera-core-1.3.1\AndroidManifest.xml:29:9-33:78
+	tools:node
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:29:13-31
+	android:enabled
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+	android:exported
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:28:13-75
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+meta-data#androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER
+ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+	android:value
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+	android:name
+		ADDED from [androidx.camera:camera-camera2:1.3.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\a72eb525390e5e6013e0fd8c82c5ca13\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:17.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\8df53893fdee2e48bafad9f71f979537\transformed\play-services-mlkit-face-detection-17.0.1\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:17.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7a2a6907933161f38b17c6dec8c14a62\transformed\vision-common-17.1.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:18.1.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\d209c40d546966149103d01daff1d102\transformed\common-18.1.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\adeb39591bd83e5926922846f09a4a48\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.0.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\481a1a95220af5ab86ff68e2c1c3c679\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5e2acfd383a055a3167e85f7966259e3\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\67fea729c4de4fa6d746ced4ee221a34\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\01a61bb8df6e1c7ee49c984f3980420b\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+permission#com.eyecare.monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#com.eyecare.monitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\5db2b505a31b793bd324959698e0065f\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\1b241e7fc5acba78ddfcce720f87ddec\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\7c4f78735116e8e2249f00ccaddb6ad5\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Administrator\Documents\EyeDistanceMonitor Project\caches\transforms-3\11f66ff611cbb19ab04726435d87554d\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92

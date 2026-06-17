@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Perfectly Professional Dark Theme -->
+    <style name="Theme.EyeDistanceMonitor" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_teal</item>
+        <item name="colorOnPrimary">@color/bg_navy_deep</item>
+        
+        <item name="colorSecondary">@color/secondary_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:colorBackground">@color/bg_navy_deep</item>
+        <item name="colorSurface">@color/surface_navy_light</item>
+        <item name="colorOnBackground">@color/text_high_emphasis</item>
+        <item name="colorOnSurface">@color/text_high_emphasis</item>
+        
+        <item name="android:statusBarColor">@color/bg_navy_deep</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
