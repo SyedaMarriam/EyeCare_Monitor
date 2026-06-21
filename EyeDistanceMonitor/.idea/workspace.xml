@@ -61,10 +61,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5dc5287f-59ee-46d1-b618-8c2830171a5e" name="Changes" comment="Initial project upload">
-      <change afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5dc5287f-59ee-46d1-b618-8c2830171a5e" name="Changes" comment=".gitinore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -284,7 +281,23 @@
       <option name="project" value="LOCAL" />
       <updated>1782034313857</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".gitinore">
+      <option name="closed" value="true" />
+      <created>1782036982974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1782036982974</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".gitinore">
+      <option name="closed" value="true" />
+      <created>1782037015853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1782037015853</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +327,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Updated project" />
     <MESSAGE value="Remove APK file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove APK file" />
+    <MESSAGE value=".gitinore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitinore" />
   </component>
   <component name="play_dynamic_filters_status">
     <option name="appIdToCheckInfo">
